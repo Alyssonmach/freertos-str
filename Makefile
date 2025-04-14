@@ -9,23 +9,23 @@ BUILD_DIR := build
 FREERTOS_DIR_REL := ${FREERTOS_PATH}/FreeRTOS
 FREERTOS_DIR := $(abspath $(FREERTOS_DIR_REL))
 
-FREERTOS_PLUS_DIR_REL := ${FREERTOS_PATH}/FreeRTOS-Plus
+FREERTOS_PLUS_DIR_REL := ${FREERTOS_PATH}/FreeRTOS-Plus-TCP
 FREERTOS_PLUS_DIR := $(abspath $(FREERTOS_PLUS_DIR_REL))
 
 INCLUDE_DIRS := -I./include
-INCLUDE_DIRS += -I${FREERTOS_DIR}/Source/include
-INCLUDE_DIRS += -I${FREERTOS_DIR}/Source/portable/ThirdParty/GCC/Posix
+INCLUDE_DIRS += -I${FREERTOS_DIR}/FreeRTOS-Kernel/include
+INCLUDE_DIRS += -I${FREERTOS_DIR}/FreeRTOS-Kernel/portable/ThirdParty/GCC/Posix
 
 SOURCE_FILES := $(wildcard ./src/*.c)
-SOURCE_FILES += ${FREERTOS_DIR}/Source/tasks.c
-SOURCE_FILES += ${FREERTOS_DIR}/Source/queue.c
-SOURCE_FILES += ${FREERTOS_DIR}/Source/list.c
-SOURCE_FILES += ${FREERTOS_DIR}/Source/timers.c
+SOURCE_FILES += ${FREERTOS_DIR}/FreeRTOS-Kernel/tasks.c
+SOURCE_FILES += ${FREERTOS_DIR}/FreeRTOS-Kernel/queue.c
+SOURCE_FILES += ${FREERTOS_DIR}/FreeRTOS-Kernel/list.c
+SOURCE_FILES += ${FREERTOS_DIR}/FreeRTOS-Kernel/timers.c
 # Memory manager (use malloc() / free())
-SOURCE_FILES += ${FREERTOS_DIR}/Source/portable/MemMang/heap_3.c
+SOURCE_FILES += ${FREERTOS_DIR}/FreeRTOS-Kernel/portable/MemMang/heap_3.c
 # Posix port
-SOURCE_FILES += ${FREERTOS_DIR}/Source/portable/ThirdParty/GCC/Posix/port.c
-SOURCE_FILES += ${FREERTOS_DIR}/Source/portable/ThirdParty/GCC/Posix/utils/wait_for_event.c
+SOURCE_FILES += ${FREERTOS_DIR}/FreeRTOS-Kernel/portable/ThirdParty/GCC/Posix/port.c
+SOURCE_FILES += ${FREERTOS_DIR}/FreeRTOS-Kernel/portable/ThirdParty/GCC/Posix/utils/wait_for_event.c
 
 CFLAGS := -ggdb3 -O0
 LDFLAGS := -ggdb3 -O0 -pthread

@@ -4,8 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${FREERTOS_PATH}/FreeRTOS/Source/include",
-                "${FREERTOS_PATH}/FreeRTOS/Source/portable/ThirdParty/GCC/Posix"
+                "${FREERTOS_PATH}/FreeRTOS/FreeRTOS-Kernel/include",
+                "${FREERTOS_PATH}/FreeRTOS/FreeRTOS-Kernel/portable/ThirdParty/GCC/Posix"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

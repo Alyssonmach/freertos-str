@@ -1,7 +1,3 @@
-Claro! Aqui está um trecho de **manual de instalação em inglês**, formatado para ser usado diretamente em um `README.md`:
-
----
-
 ## FreeRTOS Setup (POSIX Port on Ubuntu)
 
 ### Requirements

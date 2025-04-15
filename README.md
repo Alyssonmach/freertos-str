@@ -1,47 +1,71 @@
-## FreeRTOS Setup (POSIX Port on Ubuntu)
+# Simulação de Célula de Manufatura com FreeRTOS
 
-### Requirements
+## Descrição do Projeto
 
-- **FreeRTOS Version:** `FreeRTOSv202210.01-LTS`  
-- **Official Site:** [FreeRTOS.org](https://freertos.org/)
-- **Linux Distro Tested:** Ubuntu 24.04 LTS
+Este projeto implementa a simulação de uma célula de manufatura utilizando FreeRTOS. O sistema é composto por uma célula de entrada, máquinas de processamento e robôs que transportam os itens entre os diferentes pontos do processo de fabricação.
 
-### Installing FreeRTOS
+* [Código Principal do Projeto](src/main.c).
+* [Link do Vídeo de Apresentação](https://www.youtube.com/watch?v=ljetrFXy6fc)
 
-1. **Download FreeRTOS LTS**
+## Estrutura do Sistema
 
-   You can download the latest LTS release from the official site:
+O sistema é composto pelos seguintes elementos:
+- **Célula de Entrada**: Responsável por receber os pacotes e disponibilizá-los para processamento.
+- **Máquinas de Processamento**:
+  - **M1**: Primeira etapa do processamento.
+  - **M2 e M3**: Segunda etapa do processamento (máquinas em paralelo).
+  - **M4**: Etapa final do processamento.
+- **Robôs**:
+  - **R1**: Transporta pacotes da Célula de Entrada para a M1.
+  - **R2 e R3**: Transporta pacotes da M1 para a M2 e M3, respectivamente.
+  - **R4**: Transporta pacotes da M2 ou M3 para a M4.
 
-   [https://github.com/FreeRTOS/FreeRTOS-LTS](https://github.com/FreeRTOS/FreeRTOS-LTS)
+Cada robô e máquina possui um tempo de operação definido conforme as regras do projeto.
 
-   Then extract the archive and place it somewhere accessible, for example:
+## Como Rodar o Projeto
+
+### Pré-requisitos
+
+- **Versão do FreeRTOS:** `FreeRTOSv202210.01-LTS`  
+- **Site Oficial:** [FreeRTOS.org](https://freertos.org/)
+- **Linux Distro:** Ubuntu 24.04 LTS
+
+### Instalando FreeRTOS
+
+1. **Baixando FreeRTOS LTS**
+
+   Baixe a versão estável do FreeRTOS a partir do site oficial: [FreeRTOSv202210.01-LTS](https://freertos.org/)
+
+   Desse modo, extraia o arquivo e deixe em um local acessível, por exemplo:
 
    ```bash
-   mkdir -p ~/FreeRTOSv202210.01-LTS
-   tar -xzf FreeRTOSv202210.01-LTS.tar.gz -C ~/FreeRTOSv202210.01-LTS
+   unzip FreeRTOSv202210.01-LTS
    ```
 
-2. **Set FreeRTOS Path**
+2. **Defina a Variável de Ambiente**
 
-   Add the following line to your `.profile`, `.bashrc`, or `.zshrc`:
+   Adicione o seguinte recurso ao `.profile`, `.bashrc`, ou `.zshrc`:
 
    ```bash
    export FREERTOS_PATH=~/FreeRTOSv202210.01-LTS/FreeRTOS-LTS
    ```
 
-   Then source the file or restart your terminal:
+   Depois, reinicie a máquina ou atualize as variáveis no terminal com:
 
    ```bash
    source ~/.profile
    ```
 
-3. **Build Dependencies**
+3. **Outras Dependências**
 
-   Ensure you have GCC and pthreads installed:
+   Instale as seguintes dependências no seu WSL Debian:
 
    ```bash
    sudo apt update
    sudo apt install build-essential
    ```
 
----
+## Autor(es)
+Projeto desenvolvido para a disciplina **STR 2024.2 - Sistemas de Automação para Monitoramento Inteligente**.
+Professor: `KYLLER COSTA GORGONIO`
+

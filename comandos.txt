@@ -1,0 +1,676 @@
+CIn: Item na Entrada, processando...
+CIn: Item pronto na saida
+R1: Movendo para CIn
+R1: Retirando da CIn
+R1: Movendo para M1
+CIn: Item na Entrada, processando...
+R1: Depositando em M1
+M1: Item na Entrada, processando...
+CIn: Item pronto na saida
+R1: Movendo para CIn
+R1: Retirando da CIn
+M1: Item pronto na saida
+R2: Movendo para M1
+CIn: Item na Entrada, processando...
+R2: Retirando da M1
+R2: Movendo para M2
+R1: Movendo para M1
+R2: Depositando em M2
+R1: Depositando em M1
+M2: Item na Entrada, processando...
+M1: Item na Entrada, processando...
+CIn: Item pronto na saida
+R1: Movendo para CIn
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M2: Item pronto na saida
+R4: Movendo para M2
+M1: Item pronto na saida
+R3: Movendo para M1
+R4: Retirando da M2
+R3: Retirando da M1
+R4: Movendo para COut
+R3: Movendo para M3
+R1: Movendo para M1
+CIn: Item pronto na saida
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R3: Depositando em M3
+COut: Item na Entrada, processando...
+M3: Item na Entrada, processando...
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+R2: Movendo para M1
+COut: Item Entregue!
+M3: Item pronto na saida
+R4: Movendo para M3
+R2: Retirando da M1
+CIn: Item pronto na saida
+R2: Movendo para M2
+R1: Movendo para M1
+R4: Retirando da M3
+R4: Movendo para COut
+R2: Depositando em M2
+R1: Depositando em M1
+R1: Movendo para CIn
+M2: Item na Entrada, processando...
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R1: Retirando da CIn
+COut: Item na Entrada, processando...
+CIn: Item na Entrada, processando...
+M2: Item pronto na saida
+R4: Movendo para M2
+M1: Item pronto na saida
+R3: Movendo para M1
+R4: Retirando da M2
+R3: Retirando da M1
+COut: Item Entregue!
+R3: Movendo para M3
+CIn: Item pronto na saida
+R4: Movendo para COut
+R1: Movendo para M1
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R3: Depositando em M3
+R4: Depositando em COut
+M3: Item na Entrada, processando...
+COut: Item na Entrada, processando...
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+R2: Movendo para M1
+M3: Item pronto na saida
+R4: Movendo para M3
+COut: Item Entregue!
+R2: Retirando da M1
+CIn: Item pronto na saida
+R2: Movendo para M2
+R1: Movendo para M1
+R4: Retirando da M3
+R4: Movendo para COut
+R2: Depositando em M2
+R1: Depositando em M1
+R1: Movendo para CIn
+M2: Item na Entrada, processando...
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R1: Retirando da CIn
+COut: Item na Entrada, processando...
+CIn: Item na Entrada, processando...
+M2: Item pronto na saida
+R4: Movendo para M2
+M1: Item pronto na saida
+R3: Movendo para M1
+R4: Retirando da M2
+R3: Retirando da M1
+COut: Item Entregue!
+CIn: Item pronto na saida
+R4: Movendo para COut
+R3: Movendo para M3
+R1: Movendo para M1
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R3: Depositando em M3
+COut: Item na Entrada, processando...
+M3: Item na Entrada, processando...
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+R2: Movendo para M1
+COut: Item Entregue!
+M3: Item pronto na saida
+R4: Movendo para M3
+R2: Retirando da M1
+CIn: Item pronto na saida
+R2: Movendo para M2
+R1: Movendo para M1
+R4: Retirando da M3
+R4: Movendo para COut
+R2: Depositando em M2
+R1: Depositando em M1
+R1: Movendo para CIn
+M2: Item na Entrada, processando...
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R1: Retirando da CIn
+COut: Item na Entrada, processando...
+CIn: Item na Entrada, processando...
+M2: Item pronto na saida
+R4: Movendo para M2
+M1: Item pronto na saida
+R3: Movendo para M1
+R4: Retirando da M2
+R3: Retirando da M1
+COut: Item Entregue!
+CIn: Item pronto na saida
+R4: Movendo para COut
+R3: Movendo para M3
+R1: Movendo para M1
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R3: Depositando em M3
+COut: Item na Entrada, processando...
+M3: Item na Entrada, processando...
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+R2: Movendo para M1
+COut: Item Entregue!
+M3: Item pronto na saida
+R4: Movendo para M3
+R2: Retirando da M1
+CIn: Item pronto na saida
+R2: Movendo para M2
+R1: Movendo para M1
+R4: Retirando da M3
+R4: Movendo para COut
+R2: Depositando em M2
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+M2: Item na Entrada, processando...
+R4: Depositando em COut
+R1: Retirando da CIn
+COut: Item na Entrada, processando...
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+M2: Item pronto na saida
+R3: Movendo para M1
+R4: Movendo para M2
+R3: Retirando da M1
+R4: Retirando da M2
+COut: Item Entregue!
+CIn: Item pronto na saida
+R3: Movendo para M3
+R4: Movendo para COut
+R1: Movendo para M1
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R3: Depositando em M3
+R4: Depositando em COut
+M3: Item na Entrada, processando...
+COut: Item na Entrada, processando...
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+R2: Movendo para M1
+M3: Item pronto na saida
+R4: Movendo para M3
+COut: Item Entregue!
+R2: Retirando da M1
+CIn: Item pronto na saida
+R2: Movendo para M2
+R1: Movendo para M1
+R4: Retirando da M3
+R4: Movendo para COut
+R2: Depositando em M2
+R1: Depositando em M1
+R1: Movendo para CIn
+M2: Item na Entrada, processando...
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R1: Retirando da CIn
+COut: Item na Entrada, processando...
+CIn: Item na Entrada, processando...
+M2: Item pronto na saida
+R4: Movendo para M2
+M1: Item pronto na saida
+R3: Movendo para M1
+R4: Retirando da M2
+R3: Retirando da M1
+COut: Item Entregue!
+CIn: Item pronto na saida
+R4: Movendo para COut
+R3: Movendo para M3
+R1: Movendo para M1
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R3: Depositando em M3
+COut: Item na Entrada, processando...
+M3: Item na Entrada, processando...
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+R2: Movendo para M1
+COut: Item Entregue!
+M3: Item pronto na saida
+R4: Movendo para M3
+R2: Retirando da M1
+CIn: Item pronto na saida
+R2: Movendo para M2
+R1: Movendo para M1
+R4: Retirando da M3
+R4: Movendo para COut
+R2: Depositando em M2
+R1: Depositando em M1
+R1: Movendo para CIn
+M2: Item na Entrada, processando...
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R1: Retirando da CIn
+COut: Item na Entrada, processando...
+CIn: Item na Entrada, processando...
+M2: Item pronto na saida
+R4: Movendo para M2
+M1: Item pronto na saida
+R3: Movendo para M1
+R4: Retirando da M2
+R3: Retirando da M1
+COut: Item Entregue!
+CIn: Item pronto na saida
+R4: Movendo para COut
+R3: Movendo para M3
+R1: Movendo para M1
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R3: Depositando em M3
+COut: Item na Entrada, processando...
+M3: Item na Entrada, processando...
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+R2: Movendo para M1
+COut: Item Entregue!
+M3: Item pronto na saida
+R4: Movendo para M3
+R2: Retirando da M1
+CIn: Item pronto na saida
+R2: Movendo para M2
+R1: Movendo para M1
+R4: Retirando da M3
+R4: Movendo para COut
+R2: Depositando em M2
+R1: Depositando em M1
+R1: Movendo para CIn
+M2: Item na Entrada, processando...
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R1: Retirando da CIn
+COut: Item na Entrada, processando...
+CIn: Item na Entrada, processando...
+M2: Item pronto na saida
+R4: Movendo para M2
+M1: Item pronto na saida
+R3: Movendo para M1
+R4: Retirando da M2
+R3: Retirando da M1
+COut: Item Entregue!
+CIn: Item pronto na saida
+R4: Movendo para COut
+R3: Movendo para M3
+R1: Movendo para M1
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R3: Depositando em M3
+COut: Item na Entrada, processando...
+M3: Item na Entrada, processando...
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+R2: Movendo para M1
+COut: Item Entregue!
+M3: Item pronto na saida
+R4: Movendo para M3
+R2: Retirando da M1
+CIn: Item pronto na saida
+R2: Movendo para M2
+R1: Movendo para M1
+R4: Retirando da M3
+R4: Movendo para COut
+R2: Depositando em M2
+R1: Depositando em M1
+R1: Movendo para CIn
+M2: Item na Entrada, processando...
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R1: Retirando da CIn
+COut: Item na Entrada, processando...
+CIn: Item na Entrada, processando...
+M2: Item pronto na saida
+R4: Movendo para M2
+M1: Item pronto na saida
+R3: Movendo para M1
+R4: Retirando da M2
+R3: Retirando da M1
+COut: Item Entregue!
+CIn: Item pronto na saida
+R4: Movendo para COut
+R3: Movendo para M3
+R1: Movendo para M1
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R3: Depositando em M3
+COut: Item na Entrada, processando...
+M3: Item na Entrada, processando...
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+R2: Movendo para M1
+COut: Item Entregue!
+M3: Item pronto na saida
+R4: Movendo para M3
+R2: Retirando da M1
+CIn: Item pronto na saida
+R2: Movendo para M2
+R1: Movendo para M1
+R4: Retirando da M3
+R4: Movendo para COut
+R2: Depositando em M2
+R1: Depositando em M1
+R1: Movendo para CIn
+M2: Item na Entrada, processando...
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R1: Retirando da CIn
+COut: Item na Entrada, processando...
+CIn: Item na Entrada, processando...
+M2: Item pronto na saida
+R4: Movendo para M2
+M1: Item pronto na saida
+R3: Movendo para M1
+R4: Retirando da M2
+R3: Retirando da M1
+COut: Item Entregue!
+CIn: Item pronto na saida
+R4: Movendo para COut
+R3: Movendo para M3
+R1: Movendo para M1
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R3: Depositando em M3
+COut: Item na Entrada, processando...
+M3: Item na Entrada, processando...
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+R2: Movendo para M1
+COut: Item Entregue!
+M3: Item pronto na saida
+R4: Movendo para M3
+R2: Retirando da M1
+CIn: Item pronto na saida
+R2: Movendo para M2
+R1: Movendo para M1
+R4: Retirando da M3
+R4: Movendo para COut
+R2: Depositando em M2
+R1: Depositando em M1
+R1: Movendo para CIn
+M2: Item na Entrada, processando...
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R1: Retirando da CIn
+COut: Item na Entrada, processando...
+CIn: Item na Entrada, processando...
+M2: Item pronto na saida
+R4: Movendo para M2
+M1: Item pronto na saida
+R3: Movendo para M1
+R4: Retirando da M2
+R3: Retirando da M1
+COut: Item Entregue!
+CIn: Item pronto na saida
+R4: Movendo para COut
+R3: Movendo para M3
+R1: Movendo para M1
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R3: Depositando em M3
+COut: Item na Entrada, processando...
+M3: Item na Entrada, processando...
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+R2: Movendo para M1
+COut: Item Entregue!
+M3: Item pronto na saida
+R4: Movendo para M3
+R2: Retirando da M1
+CIn: Item pronto na saida
+R2: Movendo para M2
+R1: Movendo para M1
+R4: Retirando da M3
+R4: Movendo para COut
+R2: Depositando em M2
+R1: Depositando em M1
+M2: Item na Entrada, processando...
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R1: Retirando da CIn
+COut: Item na Entrada, processando...
+CIn: Item na Entrada, processando...
+M2: Item pronto na saida
+R4: Movendo para M2
+M1: Item pronto na saida
+R3: Movendo para M1
+R4: Retirando da M2
+R3: Retirando da M1
+COut: Item Entregue!
+R4: Movendo para COut
+CIn: Item pronto na saida
+R3: Movendo para M3
+R1: Movendo para M1
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R3: Depositando em M3
+COut: Item na Entrada, processando...
+M3: Item na Entrada, processando...
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+R2: Movendo para M1
+COut: Item Entregue!
+M3: Item pronto na saida
+R4: Movendo para M3
+R2: Retirando da M1
+CIn: Item pronto na saida
+R2: Movendo para M2
+R1: Movendo para M1
+R4: Retirando da M3
+R4: Movendo para COut
+R2: Depositando em M2
+R1: Depositando em M1
+R1: Movendo para CIn
+M2: Item na Entrada, processando...
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R1: Retirando da CIn
+COut: Item na Entrada, processando...
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+M2: Item pronto na saida
+R3: Movendo para M1
+R4: Movendo para M2
+R3: Retirando da M1
+R4: Retirando da M2
+COut: Item Entregue!
+CIn: Item pronto na saida
+R3: Movendo para M3
+R4: Movendo para COut
+R1: Movendo para M1
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R3: Depositando em M3
+R4: Depositando em COut
+M3: Item na Entrada, processando...
+COut: Item na Entrada, processando...
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+R2: Movendo para M1
+M3: Item pronto na saida
+R4: Movendo para M3
+COut: Item Entregue!
+R2: Retirando da M1
+CIn: Item pronto na saida
+R2: Movendo para M2
+R1: Movendo para M1
+R4: Retirando da M3
+R4: Movendo para COut
+R2: Depositando em M2
+R1: Depositando em M1
+R1: Movendo para CIn
+M2: Item na Entrada, processando...
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R1: Retirando da CIn
+COut: Item na Entrada, processando...
+CIn: Item na Entrada, processando...
+M2: Item pronto na saida
+R4: Movendo para M2
+M1: Item pronto na saida
+R3: Movendo para M1
+R4: Retirando da M2
+R3: Retirando da M1
+COut: Item Entregue!
+CIn: Item pronto na saida
+R4: Movendo para COut
+R3: Movendo para M3
+R1: Movendo para M1
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R3: Depositando em M3
+COut: Item na Entrada, processando...
+M3: Item na Entrada, processando...
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+R2: Movendo para M1
+COut: Item Entregue!
+M3: Item pronto na saida
+R4: Movendo para M3
+R2: Retirando da M1
+CIn: Item pronto na saida
+R2: Movendo para M2
+R1: Movendo para M1
+R4: Retirando da M3
+R4: Movendo para COut
+R2: Depositando em M2
+R1: Depositando em M1
+R1: Movendo para CIn
+M2: Item na Entrada, processando...
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R1: Retirando da CIn
+COut: Item na Entrada, processando...
+CIn: Item na Entrada, processando...
+M2: Item pronto na saida
+R4: Movendo para M2
+M1: Item pronto na saida
+R3: Movendo para M1
+R4: Retirando da M2
+R3: Retirando da M1
+COut: Item Entregue!
+CIn: Item pronto na saida
+R4: Movendo para COut
+R3: Movendo para M3
+R1: Movendo para M1
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R3: Depositando em M3
+COut: Item na Entrada, processando...
+M3: Item na Entrada, processando...
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+R2: Movendo para M1
+COut: Item Entregue!
+M3: Item pronto na saida
+R4: Movendo para M3
+R2: Retirando da M1
+CIn: Item pronto na saida
+R2: Movendo para M2
+R1: Movendo para M1
+R4: Retirando da M3
+R4: Movendo para COut
+R2: Depositando em M2
+R1: Depositando em M1
+R1: Movendo para CIn
+M2: Item na Entrada, processando...
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R1: Retirando da CIn
+COut: Item na Entrada, processando...
+CIn: Item na Entrada, processando...
+M2: Item pronto na saida
+R4: Movendo para M2
+M1: Item pronto na saida
+R3: Movendo para M1
+R4: Retirando da M2
+R3: Retirando da M1
+COut: Item Entregue!
+CIn: Item pronto na saida
+R4: Movendo para COut
+R3: Movendo para M3
+R1: Movendo para M1
+R1: Depositando em M1
+R1: Movendo para CIn
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R3: Depositando em M3
+COut: Item na Entrada, processando...
+M3: Item na Entrada, processando...
+R1: Retirando da CIn
+CIn: Item na Entrada, processando...
+M1: Item pronto na saida
+R2: Movendo para M1
+COut: Item Entregue!
+M3: Item pronto na saida
+R4: Movendo para M3
+R2: Retirando da M1
+CIn: Item pronto na saida
+R2: Movendo para M2
+R1: Movendo para M1
+R4: Retirando da M3
+R4: Movendo para COut
+R2: Depositando em M2
+R1: Depositando em M1
+R1: Movendo para CIn
+M2: Item na Entrada, processando...
+M1: Item na Entrada, processando...
+R4: Depositando em COut
+R1: Retirando da CIn
+COut: Item na Entrada, processando...
+CIn: Item na Entrada, processando...
+M2: Item pronto na saida
+R4: Movendo para M2
+M1: Item pronto na saida
+R3: Movendo para M1
+R4: Retirando da M2
+R3: Retirando da M1
+COut: Item Entregue!
+CIn: Item pronto na saida
+R4: Movendo para COut
+R3: Movendo para M3
+R1: Movendo para M1
+R1: Depositando em M1

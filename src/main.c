@@ -94,9 +94,9 @@ void vMaquinaCelin(void *pvParameters) {
 
     while (1) {
         if (xSemaphoreTake(xTemEntradaCelIn, portMAX_DELAY) == pdTRUE) {
-            printf("CelulaIn: Item na Entrada, processando...\n");
+            printf("CIn: Item na Entrada, processando...\n");
             vTaskDelay(pdMS_TO_TICKS(TEMPO_PRODUCAO_M1_M2));
-            printf("CelulaIn: Item pronto na saida\n");
+            printf("CIn: Item pronto na saida\n");
             xSemaphoreGive(xTemSaidaCelIn);
         }
     }
@@ -108,10 +108,10 @@ void vRoboR1(void *pvParameters) {
 
     while (1) {
         if (xSemaphoreTake(xTemSaidaCelIn, portMAX_DELAY) == pdTRUE) {
-            printf("R1: Movendo para CélulaIn\n");
+            printf("R1: Movendo para CIn\n");
             vTaskDelay(pdMS_TO_TICKS(TEMPO_MOVIMENTO_R1_R2_R4));
     
-            printf("R1: Retirando da CélulaIn\n");
+            printf("R1: Retirando da CIn\n");
             vTaskDelay(pdMS_TO_TICKS(TEMPO_OPERACAO_ROBO));
             
             xSemaphoreGive(xTemEntradaCelIn);
@@ -262,10 +262,10 @@ void vRoboR4(void *pvParameters) {
         }
 
         if (xSemaphoreTake(xTemEntradaCelOut, portMAX_DELAY) == pdTRUE) {
-            printf("R4: Movendo para CelOut\n");
+            printf("R4: Movendo para COut\n");
             vTaskDelay(pdMS_TO_TICKS(TEMPO_MOVIMENTO_R3));
 
-            printf("R4: Depositando em CelOut\n");
+            printf("R4: Depositando em COut\n");
             vTaskDelay(pdMS_TO_TICKS(TEMPO_OPERACAO_ROBO));
 
             xSemaphoreGive(xItemProntoCelOut);
@@ -279,9 +279,9 @@ void vMaquinaCelOut(void *pvParameters) {
 
     while (1) {
         if (xSemaphoreTake(xItemProntoCelOut, portMAX_DELAY) == pdTRUE) {
-            printf("CelOut: Item na Entrada, processando...\n");
+            printf("COut: Item na Entrada, processando...\n");
             vTaskDelay(pdMS_TO_TICKS(TEMPO_PRODUCAO_M1_M2));
-            printf("CelOut: Item Entregue!\n");
+            printf("COut: Item Entregue!\n");
             xSemaphoreGive(xTemEntradaCelOut);
         }
     }

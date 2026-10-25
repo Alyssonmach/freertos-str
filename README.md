@@ -5,7 +5,6 @@
 Este projeto implementa a simulação de uma célula de manufatura utilizando FreeRTOS. O sistema é composto por uma célula de entrada, máquinas de processamento e robôs que transportam os itens entre os diferentes pontos do processo de fabricação.
 
 * [Código Principal do Projeto](src/main.c).
-* [Link do Vídeo de Apresentação](https://www.youtube.com/watch?v=ljetrFXy6fc)
 
 ## Estrutura do Sistema
 
